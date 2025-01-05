@@ -25,7 +25,7 @@
 # Usage:
 # ./getFeature.R [ lifted point CSV ] [ feature ]
 
-args <- commandArgs(trailingOnly=TRUE)
+args <- commandArgs(trailingOnly = TRUE)
 annotation_csv  = args[1]
 feature  = args[2]
 
